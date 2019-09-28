@@ -47,7 +47,7 @@ class BloodTest extends Component {
               <td>62</td>
               <td>115</td>
               <td>μmol/L</td>
-              <td>100</td>
+              <td>-</td>
             </tr>
             <tr>
               <td>Creatinine - female</td>
@@ -61,7 +61,7 @@ class BloodTest extends Component {
               <td>0.7</td>
               <td>1.3</td>
               <td>mg/dL</td>
-              <td>0.9</td>
+              <td>-</td>
             </tr>
             <tr>
               <td>Creatinine - female</td>
