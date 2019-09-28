@@ -1,0 +1,42 @@
+/* headBar */
+
+#tabs, #reward, #skipButton {
+  display: inline-block;
+}
+
+#tabs {
+  width: 20%;
+  margin: 0;
+}
+
+#reward {
+  width: 60%;
+  text-align: center;
+}
+
+#skipButton {
+  width: 19%
+}
+
+#skipButton button {
+  float: right;
+}
+
+/* tabbar */
+
+#tabs button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+#tabs button:hover {
+  background-color: #ddd;
+}
+
+#tabs button.active {
+  background-color: #ccc;
+}

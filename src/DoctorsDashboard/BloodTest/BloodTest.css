@@ -1,0 +1,30 @@
+#BloodTest table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+}
+
+#BloodTest td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#BloodTest tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#BloodTest td:nth-child(5) {
+  font-weight: bold;
+}
+
+#BloodTest h3 {
+  text-align: center;
+}
+
+#BloodTest {
+  margin: 30px auto 0px auto;
+  padding: 50px 0px;
+  width: 90%;
+  border: 1px solid #dddddd;
+}

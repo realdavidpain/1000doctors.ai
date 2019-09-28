@@ -1,0 +1,23 @@
+#BrainLab img {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+
+/* footBar */
+
+#footBar {
+  margin-top: 30px;
+}
+
+#docTextarea, #docSubmit {
+  display: inline-block;
+}
+
+#docTextarea {
+  width: 80%
+}
+
+#docSubmit {
+  float: right;
+}
