@@ -2,8 +2,17 @@
   margin: 0px 30px;
 }
 
-#PatientsDashboard img {
+#PatientsDashboard #Logo img {
   width: 300px
+}
+
+#PatientsDashboard #Line img {
+  width: 500px;
+  margin-top: -30px;
+}
+
+#PatientsDashboard #Line {
+  float: right;
 }
 
 .fileDrop {
@@ -26,7 +35,7 @@
 
 
 #PatientsDashboard h2 {
-  margin-top: 50px;
+  margin-top: 30px;
   text-align: center;
 }
 

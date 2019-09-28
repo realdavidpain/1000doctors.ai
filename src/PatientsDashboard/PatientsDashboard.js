@@ -28,6 +28,9 @@ class PatientsDashboard extends Component {
           <button>Upload</button>
         </div>
       </form>
+      <div id='Line'>
+        <img src={require(`../Assets/line.png`)} alt='Line'/>
+      </div>
     </div>
   }
 
@@ -80,7 +83,9 @@ class PatientsDashboard extends Component {
   render() {
     return (
       <div id='PatientsDashboard'>
-        <img src={require(`../Assets/logo.png`)} alt='BrainLab'/>
+        <div id='Logo'>
+          <img src={require(`../Assets/logo.png`)} alt='Logo'/>
+        </div>
         {this.getEditorContent()}
       </div>
     );

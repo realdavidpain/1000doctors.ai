@@ -18,6 +18,7 @@ class DoctorsDashboard extends Component {
     return (
       <div id='DoctorsDashboard'>
         <div id='headBar'>
+          <img src={require(`../Assets/logo.png`)} alt='Logo'/>
   				<div id='tabs'>
             <button onClick={() => this.changebrainLabMode(true)}>BrainLab</button>
   					<button onClick={() => this.changebrainLabMode(false)}>Blood Test</button>

@@ -1,13 +1,17 @@
+#BrainLab {
+  margin: 0px 30px;
+}
+
 #BrainLab img {
   display: block;
   margin: auto;
-  width: 90%;
+  width: 80%;
 }
 
 /* footBar */
 
 #footBar {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 #docTextarea, #docSubmit {
@@ -15,9 +19,21 @@
 }
 
 #docTextarea {
-  width: 80%
+  width: 80%;
+  height: 45px
 }
 
 #docSubmit {
   float: right;
+}
+
+#BrainLab button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
 }

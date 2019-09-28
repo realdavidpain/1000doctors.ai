@@ -1,5 +1,9 @@
 /* headBar */
 
+#DoctorsDashboard {
+  margin: 0px 30px;
+}
+
 #tabs, #reward, #skipButton {
   display: inline-block;
 }
@@ -7,19 +11,26 @@
 #tabs {
   width: 20%;
   margin: 0;
+  display: inline-block;
 }
 
 #reward {
-  width: 60%;
+  width: 40%;
   text-align: center;
+  display: inline-block;
 }
 
 #skipButton {
-  width: 19%
+  width: 15%;
+  display: inline-block;
 }
 
 #skipButton button {
   float: right;
+}
+
+#headBar img {
+  width: 300px;
 }
 
 /* tabbar */
@@ -31,12 +42,16 @@
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
+  color: white
 }
 
-#tabs button:hover {
-  background-color: #ddd;
-}
-
-#tabs button.active {
-  background-color: #ccc;
+#skipButton button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
 }

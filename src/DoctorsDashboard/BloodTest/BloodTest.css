@@ -11,10 +11,10 @@
 }
 
 #BloodTest tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #808080;
 }
 
-#BloodTest td:nth-child(5) {
+#BloodTest td:nth-child(4) {
   font-weight: bold;
 }
 
